@@ -50,6 +50,9 @@ Top Product Lines by Revenue Contribution: Identified product lines generating t
 
 Phase 4: Created workflow to create a automated pdf report capturing the metrics derived from each individual workflow
 
+## Workflow File  
+[Click here to download](https://github.com/ParishaD6/Alteryx-Project-Sales-Analysis/blob/main/Alteryx%20Project_Sales%20Analysis.yxmd)
+
 Workflow created
 ![image](https://github.com/user-attachments/assets/c980e2f9-2cf2-4831-b3f9-617f8e4ff1cb)
 ![image](https://github.com/user-attachments/assets/984fe3f9-0206-42f3-b939-660b2be093be)
