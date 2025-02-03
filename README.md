@@ -20,16 +20,28 @@ Project Phases
 This Alteryx workflow is designed to analyze customer transactions through three key phases:
 
 Phase 1 - Data Cleanup
-Column Filtering: Removed unnecessary columns (product_class, product_size) using the SELECT tool.
-Data Type Conversion: Ensured data compatibility using the SELECT tool.
-Column Renaming: Standardized column names for better clarity.
-Quality Assurance: Checked data integrity using the BROWSE tool.
+Filtered Unnecessary Columns (e.g., product_class, product_size).
+Converted Data Types for compatibility.
+Renamed Columns for clarity.
+Performed Data Quality Checks to ensure integrity
+
+Tools used: 
+Select Tool – Used for selecting required fields, renaming columns, and changing data types.
+Filter Tool – Used to filter out unwanted records based on conditions.
+Formula Tool – Applied calculations such as profit calculations (list_price - standard_cost).
+Data Cleansing Tool – Ensured data consistency and handled missing values.
 
 Phase 2 - Cohort Analysis
 Customer Segmentation: Grouped customers into cohorts based on transaction behavior.
 Cohort Metrics: Computed key metrics like retention rate and average spend per cohort.
 Tabular Representation: Generated a Cohort Retention Rate Table for comparison.
 For a detailed view, refer to the Alteryx Workflow file (.yxmd).
+
+Tools used:
+Summarize Tool – Grouped data by cohorts (month-year, transaction behavior).
+Join Tool – Merged datasets to analyze customer transactions over time.
+Cross Tab Tool – Converted grouped cohort data into a tabular format for retention analysis.
+Sort Tool – Sorted data for better visualization and analysis.
 
 Phase 3 - Business Insights Generation
 This phase involved building workflows to extract the following insights:
@@ -48,9 +60,19 @@ c. Average profit per transaction
 Customer who purchased from all product line
 Top Product Lines by Revenue Contribution: Identified product lines generating the most revenue.
 
-Phase 4: Automated PDF Report  
+Tools Used: 
+Summarize Tool – Aggregated key metrics like total revenue, customer spending, and product line contributions.
+Append Fields Tool – Merged different datasets for comprehensive insights.
+Charting Tool – Visualized metrics such as average list price per product line.
+Basic Table Tool – Created tabular reports for key insights.
+
+Phase 4: Report Generation and Auomation
 Created a workflow to generate an **automated PDF report**, capturing the metrics derived from each individual workflow.  
 [Download the PDF Report](https://github.com/ParishaD6/Alteryx-Project-Sales-Analysis/blob/main/Ecommerce%20Sales%20analysis%20Report_%20Alteryx.pdf)
+
+Tools Used: 
+Render Tool – Generated automated PDF and image reports.
+Multiple Join Tool – Combined various reporting elements for structured report layouts.
 
 ## Workflow File  
 [Click here to download](https://github.com/ParishaD6/Alteryx-Project-Sales-Analysis/blob/main/Alteryx%20Project_Sales%20Analysis.yxmd)
