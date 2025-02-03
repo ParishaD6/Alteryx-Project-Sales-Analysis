@@ -19,7 +19,7 @@ Key Attributes:
 Project Phases
 This Alteryx workflow is designed to analyze customer transactions through three key phases:
 
-Phase 1 - Data Cleanup
+## Phase 1 - Data Cleanup
 Filtered Unnecessary Columns (e.g., product_class, product_size).
 Converted Data Types for compatibility.
 Renamed Columns for clarity.
@@ -31,7 +31,7 @@ Filter Tool – Used to filter out unwanted records based on conditions.
 Formula Tool – Applied calculations such as profit calculations (list_price - standard_cost).
 Data Cleansing Tool – Ensured data consistency and handled missing values.
 
-Phase 2 - Cohort Analysis
+## Phase 2 - Cohort Analysis
 Customer Segmentation: Grouped customers into cohorts based on transaction behavior.
 Cohort Metrics: Computed key metrics like retention rate and average spend per cohort.
 Tabular Representation: Generated a Cohort Retention Rate Table for comparison.
@@ -43,7 +43,7 @@ Join Tool – Merged datasets to analyze customer transactions over time.
 Cross Tab Tool – Converted grouped cohort data into a tabular format for retention analysis.
 Sort Tool – Sorted data for better visualization and analysis.
 
-Phase 3 - Business Insights Generation
+## Phase 3 - Business Insights Generation
 This phase involved building workflows to extract the following insights:
 
 1. Brand & Customer Insights
@@ -66,7 +66,7 @@ Append Fields Tool – Merged different datasets for comprehensive insights.
 Charting Tool – Visualized metrics such as average list price per product line.
 Basic Table Tool – Created tabular reports for key insights.
 
-Phase 4: Report Generation and Auomation
+## Phase 4: Report Generation and Auomation
 Created a workflow to generate an **automated PDF report**, capturing the metrics derived from each individual workflow.  
 [Download the PDF Report](https://github.com/ParishaD6/Alteryx-Project-Sales-Analysis/blob/main/Ecommerce%20Sales%20analysis%20Report_%20Alteryx.pdf)
 
